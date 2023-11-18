@@ -1,0 +1,103 @@
+:root
+{
+    --transition: all 0.4s;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 424px;
+}
+a
+{
+    text-decoration: none;
+    color: #1E255E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: var(--transition);
+    &:hover
+    {
+        color: lightseagreen;
+    }
+}
+.header
+{
+    padding-top: 33px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+.header .login button{
+    margin-left: 50px;
+    width: 130px;
+    height: 42px;
+    border-radius: 100px;
+    background: #3C4EF3;
+    border: none;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: #2b39b8;
+    }
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main
+{
+    width: 1440px;    
+    padding-top: 30px;
+    margin-top: 30px;
+    background-image: url(../imges/main-bg.png);
+    padding-bottom: 184px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px 600px;
+}
+.main h1
+{
+    width: 540px;
+    color: #1E255E;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main p
+{
+    width: 380px;
+    color: rgba(30, 37, 94, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main button
+{
+    margin-top: 50px;
+    padding: 19px 34px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    background: #dbdfff;
+    transition: var(--transition);
+    cursor: pointer;
+    &:hover
+    {
+        background-color: #3C4EF3;
+        color: #FFF;
+    }
+}
+.main button .icon
+{
+    font-size: 16px;
+}
